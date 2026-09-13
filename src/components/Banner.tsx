@@ -12,23 +12,23 @@ const Banner = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           <div className="order-2 lg:order-1">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-slate-900 leading-tight mb-5">
-              Build Your Ideal<br />
+              Find the Right Stack for Your Next Project
+              <br />
               <span className="brand-gradient-text">Development Stack</span>
             </h1>
             <p className="text-slate-500 text-base md:text-lg max-w-md leading-relaxed mb-8">
-              Explore frontend, backend, database, and tooling options,
-              compare them side by side, and put together the stack that fits
-              your next project.
+              Mix and match frontend frameworks, databases, and services to see
+              what works best together before you write a single line of code.
             </p>
             <div className="flex flex-wrap gap-4">
               <button
                 onClick={scrollToTech}
                 className="brand-gradient text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:shadow-lg hover:scale-[1.03] transition-all"
               >
-                Explore Technologies
+                Let's Explore Techs
               </button>
               <button className="border-2 border-slate-200 text-slate-700 font-semibold px-6 py-3 rounded-lg hover:border-pink-300 hover:text-pink-600 transition-all">
-                Learn More
+                Want More!!
               </button>
             </div>
           </div>
